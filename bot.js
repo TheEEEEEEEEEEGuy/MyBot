@@ -29,7 +29,7 @@
                     var TAcc, TMessage;
 
 
-await s4d.client.login('OTIyODQzOTczODg4OTMzOTA4.YcHXbA.tR5uNh_WPQJ09AP8XSUWKrNIBK8').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
+await s4d.client.login('').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 
 s4d.client.on('messageCreate', async (s4dmessage) => {
   if ((s4dmessage.content) == '>add ticket') {
